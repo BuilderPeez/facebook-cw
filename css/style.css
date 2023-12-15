@@ -1,0 +1,436 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+/* styling facebook1 */
+.color{
+    background-color: beige;
+}
+.row{
+    margin: 10% 0;
+}
+.face h1{
+    font-size: 70px;
+    font-weight: 700;
+    padding-left: 200px;
+    padding-top: 50px;
+}
+.face p{
+    font-size: larger;
+    padding-left: 200px;
+    font-weight: 500;
+}
+/* styling facebook1 done */
+
+/* styling facebook table */
+.facebook form{
+    width: 60%;
+    border: 2px solid white;
+    border-radius: 10px;
+    background-color: white;
+    box-shadow: black;
+    margin-left: 25%;
+    margin-right: 25%;
+    box-shadow: 0 0 10px gray;
+    padding: 20px;
+    text-align: center;
+}
+.facebook input :focus{
+    border: 2px solid white;
+    outline: none;
+}
+.facebook .btn-primary{
+    width: 100%;
+    font-weight: 500;
+    border: none;
+}
+.facebook .btn-success{
+    background-color: rgb(19, 194, 19);
+    width: 70%;
+    margin-left: 15%;
+    margin-right: 15%;
+    font-weight: 500;
+    border: none;
+}
+.facebook p{
+    color: blue;
+    padding-top: 10px;
+}
+.facebook p:hover{
+    text-decoration: underline;
+}
+.facebook a{
+    color: black;
+    font-weight: bold;
+}
+.facebook p.p2{
+color: black;
+padding-left: 140px;
+}
+/* styling facebook table done */
+
+/* styling twitter */
+.twit h1{
+    text-decoration: solid;
+    color: black;
+    font-weight: 700;
+    margin-top: 50px;
+
+}
+.twit form{
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+    
+    border: 2px solid none;
+}
+.twit button{
+    width: 100%;
+    border-radius: 10vh;   
+    opacity: 50%;
+    font-weight: 500;
+}
+.twit input:focus{
+    width: 100%;
+    outline: none;
+}
+.twit p{
+    color: blue;
+    text-align: center;
+    opacity: 80%;
+    font-weight: 400;
+}
+/* styling twitter done */
+
+
+/* styling form */
+.reg form{
+    width: 50%;
+    margin-left: 25%;
+    margin-right: 25%;
+    border: 2px solid black;
+    padding-top: 20px;
+    margin-top: 50px;
+    text-transform: capitalize;
+    background-color: chocolate;
+    color: white;
+    text-align: center;
+    border-radius: 10vh;
+    box-shadow: 0 0 30px black;
+}
+.reg button{
+    background-color: red;
+    text-align: center;
+    color: white;
+    font-weight: 500;
+    width: 50%;
+    margin-top: 5px;
+}
+/* styling form done */
+
+/* styling list */
+.list li{
+    font-weight: 1000;
+    font-size: larger;
+    text-align: center;
+    text-transform: uppercase;
+}
+/* styling list done */
+
+/* styling table */
+.tab table{
+    width: 70%;
+    margin-left: 15%;
+    margin-right: 15%;
+    height: 20rem;
+    text-align: center;
+    text-transform: capitalize;
+    border: 2px solid black;
+    font-weight: 500;
+    
+}
+.tab thead{
+    background-color: chocolate;
+    color: white;
+}
+#tobi tr:nth-child(even){
+    background-color: chocolate;
+    color: white;
+}
+#tobi tr:nth-child(odd){
+    background-color: brown;
+    color: white;
+}
+.color{
+    background-color: black;
+}
+/* styling table done */
+
+/* styling header */
+.navlist li{
+    display: inline;
+    grid-template-columns: auto;
+    margin-left: 20px;
+    color: white;
+    text-transform: capitalize;
+    font-weight: 500;
+    font-size: 200%;
+}
+.navlist i{
+    font-weight: 900;
+    font-size: larger;
+}
+.navhead{
+    background-color: gb(42, 116, 226);
+    color: white;
+}
+.navhead p{
+    font-size: 200%;
+}
+.navhead span{
+    font-size: 50%;
+    margin-left: 30px;
+    font-weight: 500;
+}
+.navhead img{
+    padding-top: 10px;
+}
+.sky{
+    background: url(/img/banner.avif);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 550vh;
+    padding-left: 5%;
+    margin-top: 20px;
+    }
+.nav2 a{
+    color: white;
+    font-weight: 500;
+}
+/* styling header done */
+
+/* styling banner */
+
+.banner h1{
+    font-size: 400%;
+    text-align: center;
+    padding-top: 100px;
+    text-transform: capitalize;
+    font-weight: 1000;
+    color: white;
+    
+}
+.banner h3{
+    text-align: center;
+    text-transform: capitalize;
+    color: white;
+    margin-top: -20px;
+    
+}
+.banner button{
+    text-align: center;
+    justify-content: center;
+    margin-left: 45%;
+    margin-right: 45%;
+    width: 10%;
+    background-color: orange;
+    text-transform: capitalize;
+    font-weight: 500;
+    border-top-left-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+    border-bottom-left-radius: 0%;
+    border-top-right-radius: 0%;
+}
+.banner p{
+    text-transform: capitalize;
+    text-align: center;
+    font-weight: 500;
+    margin-top: 30px;
+    text-decoration: underline;
+}
+.banner span{
+    margin-left: 20px;
+}
+
+
+/* styling banner done */
+/* styling content */
+.cont img{
+    border-radius: 5vh;
+}
+.cont h2{
+    font-weight: 1000;
+    text-transform: capitalize;
+}
+.cont h6{
+    text-align: justify;
+    margin-right: 100px;
+    margin-top: 30px;
+    
+}
+.cont button{
+    width: 30%;
+    color: black;
+    font-weight: bold;
+    border-top-left-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+    border-bottom-left-radius: 0%;
+    border-top-right-radius: 0%;
+    background-color: orange;
+    text-transform: capitalize;
+    
+}
+/* .body{
+    background-color: aliceblue;
+    padding-top: 10px;
+} */
+.bod2 img{
+    border-radius: 5vh;
+    margin-left: 150px;
+    width: 80%;
+}
+.bod2 h2{
+    font-weight: 1000;
+    text-transform: capitalize;
+    text-align: justify;
+}
+.bod2 p{
+    text-align: justify;
+    margin-right: 10px;
+}
+.bod2 button{
+    border: 2px solid black;
+    border-top-left-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+    border-bottom-left-radius: 0%;
+    border-top-right-radius: 0%;
+    font-weight: 500;
+    text-transform: capitalize;
+}
+.bod2 i{
+    font-weight: 1000;
+    font-size: 150%;
+}
+.bod3 img{
+border-radius: 5vh;
+
+}
+.bod3 h1{
+    font-weight: 1000;
+    text-transform: capitalize;
+    
+}
+.bod3 p{
+    text-align: justify;
+    font-size: larger;
+
+
+}
+.bod3 span{
+    font-weight: 700;
+}
+.bod3 button{
+    border: 2px solid black;
+    border-top-left-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+    border-bottom-left-radius: 0%;
+    border-top-right-radius: 0%;
+    font-weight: 500;
+    text-transform: capitalize;
+}
+.bod3 i{
+    font-weight: 1000;
+    font-size: 150%;
+}
+.bod4 img{
+    position: relative;
+    border-radius: 5vh;
+   
+}
+.img1{
+   position: absolute;
+   top: 20px;
+   left: 250px;
+   z-index: 10;
+   border-radius: 5vh;
+   bottom: 100px;
+}
+.img2{
+   position: absolute;
+   top: 180px;
+   left: 100px;
+    opacity: 60%;
+    border-radius: 5vh;
+}
+.img3{
+    position: absolute;
+    top: 300px;
+    left: 200px;
+    z-index: 20;
+    opacity: 80%;
+    border-radius: 5vh;
+    
+}
+.bod4 h1{
+    font-weight: 1000;
+
+}
+.bod4 h3{
+    font-weight: 1000;
+}
+.bod4 p{
+    text-align: justify;
+    font-weight: 500;
+}
+.bod4 button{
+    border: 2px solid black;
+    border-top-left-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+    border-bottom-left-radius: 0%;
+    border-top-right-radius: 0%;
+    font-weight: 500;
+    text-transform: capitalize;
+}
+.bod4 i{
+    font-weight: 1000;
+    font-size: 150%;
+}    
+/* styling content done */
+
+/* styling footer */
+.coach img{
+    margin-top: 150px;
+}
+.gold img{
+    margin-left: 40px;
+    margin-top: 10px;
+}
+.copy p{
+    margin-left: 40px;
+    font-weight: 400;
+}
+.social li{
+    font-size: 180%;
+    margin-left: 50px;
+}
+.spd li{
+    text-transform: capitalize;
+    margin-left: 38px;
+    font-size: 100%;
+    font-weight: 600;
+    display: inline;
+    grid-template-columns: 50% 50%;
+}
+.crowd img{
+    text-align: center;
+    margin-left: -67px;
+    margin-top: -150px;
+    height: 100vh;
+    width: 105%;
+}
+/* styling footer done */
+
+
+

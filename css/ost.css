@@ -1,0 +1,389 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* styling osteria */
+
+/* styling header */
+.headnav p{
+    border: 2px solid none;
+    text-align: center;
+    background-color: rgb(206, 190, 102);
+    color: white;
+    font-size: medium;
+    font-weight: 500;
+}
+.headnav i{
+    color: rgb(206, 190, 102);
+    margin-left: 10px;
+    
+}
+.headnav ul{
+    margin-left: -600px;
+    margin-top: 60px;
+}
+.headnav li{
+    margin-left: 20px;
+}
+.thing{
+    display: inline-block;
+}
+.headnav img{
+    margin-top: -30px;
+    margin-left: -10px;
+}
+.headnav button{
+    border: 2px solid none;
+    text-align: center;
+    background-color: rgb(206, 190, 102);
+    color: white;
+    font-size: medium;
+    font-weight: 500;
+    border-radius: 0%;
+}
+.headnav ol{
+    margin-top: -40px;
+    opacity: 100%;
+    margin-left: 700px;
+}
+.headnav .list-inline-item{
+    border: 2px solid rgb(206, 190, 102);
+    text-align: center;
+    background-color: rgb(206, 190, 102);
+    color: white;
+    font-size: medium;
+    font-weight: 400;
+    border-radius: 0%;
+    box-sizing: content-box;
+    
+}
+
+.list-inline-item span{
+    font-size: 70%;
+}
+.cont a{
+  color: white; 
+  font-size: 80%; 
+}
+.cont a:hover{
+    color: rgb(206, 190, 102);
+}
+/* styling header */
+
+/* styling banner */
+.banner{
+    background: url(/img/banner\ food.jpg);
+    background-repeat: no-repeat;
+    height: 120vh;
+    width: 100%;
+    margin-top: -400px;
+    background-attachment: fixed;
+}
+.banner button{
+    border-radius: 0%;
+    border: 2px solid rgb(206, 190, 102);
+    background-color: rgb(206, 190, 102);
+    color: white;
+    font-weight: bolder;
+    text-align: center;
+    width: 12%;
+    margin-right: 45%;
+    margin-left: 45%;
+    margin-top: 700px;
+    font-size: 110%;
+    z-index: 10;
+    
+}
+.banner button:hover{
+    background-color: beige;
+    color: rgb(206, 190, 102);
+    border: 2px solid rgb(206, 190, 102);
+}
+
+
+/* styling banner done */
+
+/* styling content */
+.cont1 h1{
+    margin-top: 50px;
+    font-style: inherit;
+    font-size: 150%;
+}
+.cont1 p{
+    font-style: inherit;
+    font-size: 100%;
+    text-align: justify;
+}
+.cont1 button{
+    border: 2px solid rgb(206, 190, 102);
+    border-radius: 0%;
+    margin-left: 15px;
+    font-weight: bold;
+}
+.cont1 button:hover{
+    color: rgb(206, 190, 102);
+    border: 2px solid rgb(206, 190, 102);
+}
+.cont1 span{
+    font-size: 70%;
+}
+.cont1 img{
+    height: 70vh;
+}
+.cont1{
+   margin-bottom: 0px;
+   padding: 20px;
+}
+.cont2{
+    background-color: rgb(238, 235, 235);
+}
+.cont2 img{
+    margin-left: -15px;
+    width: 100%;
+    
+}
+.cont2 button{
+    border: 2px solid rgb(206, 190, 102);
+    border-radius: 0%;
+    margin-left: 15px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+}
+.cont2 button:hover{
+    color: rgb(206, 190, 102);
+    border: 2px solid rgb(206, 190, 102);
+}
+.cont2 h1{
+    margin-top: 50px;
+    font-style: inherit;
+    font-size: 150%;
+}
+.cont2 p{
+    font-style: inherit;
+    font-size: 100%;
+    text-align: justify;
+    margin-left: 20px;
+}
+.cont3 button{
+    border: 2px solid rgb(206, 190, 102);
+    border-radius: 0%;
+    margin-left: 15px;
+    font-weight: bold;
+    margin-top: 20px;
+    text-transform: uppercase;
+
+}
+.cont3 button:hover{
+    color: rgb(206, 190, 102);
+    border: 2px solid rgb(206, 190, 102);
+}
+.cont3 p{
+    text-align: start;
+    margin-top: 20px;
+}
+.cont3 img{
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+.cont3 h2{
+    font-size: 150%;
+}
+.cont4 p{
+    text-align: start;
+    margin-top: 20px;
+}
+.cont4 button{
+    border: 2px solid rgb(206, 190, 102);
+    border-radius: 0%;
+    margin-left: 15px;
+    font-weight: bold;
+    margin-top: 20px;
+    text-transform: uppercase;
+
+}
+.cont4 button:hover{
+    color: rgb(206, 190, 102);
+    border: 2px solid rgb(206, 190, 102);
+}
+.cont4{
+    background-color: rgb(238, 235, 235);
+}
+/* styling content done */
+
+/* styling footer */
+.foot{
+    background-color: rgb(36, 35, 35);
+    color: white;
+}
+.foot li{
+    display: block;
+    margin-left: -15px;
+    
+}
+.foot ul{
+    margin-top: 10px;
+}
+.foot a{
+    color: white;
+    text-decoration: none;
+    
+}
+.foot a:hover{
+    color: rgb(206, 190, 102);
+}
+.foot .f1{
+    margin-top: 100px;
+}
+.foot .f2{
+    margin-top: 100px;
+}
+.foot .f3{
+    margin-top: 100px;
+    
+}
+.foot .f{
+    margin-left: 30px;
+    margin-right: -50px;
+}
+.f3 button{
+    border: 2px solid rgb(206, 190, 102);
+    border-radius: 0%;
+    margin-left: 15px;
+    font-weight: bold;
+    margin-top: 25px;
+    text-transform: uppercase;
+    color: white;
+    margin-left: 0px;
+}
+.f3 button:hover{
+    color: rgb(206, 190, 102);
+    border: 2px solid rgb(206, 190, 102);   
+}
+.foot input{
+    width: 100%;
+    background: none;
+    padding: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    position: relative;
+    border: none;
+    border-bottom: 3px solid white;
+}
+.foot p{
+    font-size: 90%;
+}
+.foot input:hover{
+    border: none;
+    border-bottom: 3px solid rgb(206, 190, 102);
+}
+.foot input:focus{
+    outline: none;
+    color: white;
+    
+}
+.foot i{
+    color: rgb(206, 190, 102);
+    padding: 5px;
+    font-size: larger;
+    margin-top: -200px;
+}
+.fspace{
+    height: 200px;
+    background-color: rgb(238, 235, 235);
+}
+.fbot{
+    text-align: center;
+    background-color: rgb(58, 58, 58);
+    color: white;
+    font-size: small;
+    height: 50px;
+}
+.fbot p{
+    padding-top: 15px;
+    font-weight: 500;
+}
+/* styling footer done */
+
+.index{
+    position: relative;
+    z-index: 30;
+}
+.float{
+    align-items: end;
+    text-align: end;
+    position: fixed;
+    z-index: 9999999;
+    margin-left: 180vh;
+    margin-top: -60px;
+    font-size: smaller;
+    
+}
+.float li{
+    display: block;
+}
+.float .ans{
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 1.4s ease;
+}
+.float .ans p{
+    padding-top: 1rem;
+    line-height: 1.6;
+    font-size: 1.4rem;
+}
+.float a{
+    text-decoration: none;
+    color: black;
+}
+.float.active .ans{
+    max-height: 300px;
+    animation: fade 1s ease-in-out;
+    color: rgb(36, 35, 35);
+}
+svg{
+    transition: transform 0.5s ease;
+    color: rgb(206, 190, 102);
+    
+}
+@keyframes fade{
+    from{
+        opacity: 0;
+        transform: translateY(-10px);
+    }
+    to{
+        opacity: 1;
+        transform: translateY(0px);
+    }
+}
+svg:hover{
+    color: rgb(58, 58, 58);
+}
+
+.buttons button{
+    border: 2px none rgb(206, 190, 102);
+    border-radius: 0%;
+    margin-left: 15px;
+    font-weight: bold;
+    margin-top: 25px;
+    text-transform: uppercase;
+    color: black;
+    margin-left: 0px;
+    background-color: rgb(238, 235, 235);
+    margin-left: 30px;
+}
+.buttons button:focus{
+    background-color: rgb(206, 190, 102);
+}
+.buttons button:hover{
+    color: black;
+    border: 2px none rgb(206, 190, 102);  
+    background-color: rgb(206, 190, 102); 
+}
+/* styling menu */
+.menu h3{
+    margin-top: 30px;
+}
+/* styling menu done*/
